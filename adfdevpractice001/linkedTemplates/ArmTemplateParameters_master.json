@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevpractice001"
+		},
+		"LS_SqlServer_password": {
+			"value": ""
+		},
+		"LS_adfstorage_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer_properties_typeProperties_server": {
+			"value": "IBM-7PS2KN3\\SQLEXPRESS"
+		},
+		"LS_SqlServer_properties_typeProperties_database": {
+			"value": "Shopping"
+		},
+		"LS_SqlServer_properties_typeProperties_userName": {
+			"value": "Admin"
+		},
+		"LS_adfstorage_properties_typeProperties_url": {
+			"value": "https://adfstorage001.dfs.core.windows.net/"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/5yDVOt/data"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
