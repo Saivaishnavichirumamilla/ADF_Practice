@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "LookUpForEach",
+				"fileName": "Updated file",
+				"folderPath": "Filter",
 				"fileSystem": "adfsink001"
 			},
 			"columnDelimiter": ",",
