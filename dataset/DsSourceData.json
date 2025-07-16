@@ -10,9 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "industry_sic.csv",
-				"folderPath": "CSV",
-				"fileSystem": "adfsource001"
+				"folderPath": "LookUpForEach",
+				"fileSystem": "adfsink001"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
