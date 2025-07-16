@@ -1,0 +1,21 @@
+{
+	"name": "LS_SqlServer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "IBM-7PS2KN3\\SQLEXPRESS",
+			"database": "Shopping",
+			"encrypt": "optional",
+			"trustServerCertificate": true,
+			"authenticationType": "SQL",
+			"userName": "Admin",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2Nzg5NDljMi1lNzk5LTQ4ZDctYTBkMi1kOWFlN2U3YmU3OWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1SQLServer",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
