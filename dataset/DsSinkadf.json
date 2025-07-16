@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Updated file",
-				"folderPath": "Filter",
+				"folderPath": "SQL",
 				"fileSystem": "adfsink001"
 			},
 			"columnDelimiter": ",",
